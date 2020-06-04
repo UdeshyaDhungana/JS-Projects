@@ -6,3 +6,4 @@ Enjoy :)
  - Get your ID from [OpenWeatherMap](https://openweathermap.org/)
  - Copy and paste it to `const ID` variable in `main.js` file of weather app
 
+P.S: API key in commit history doesn't work anymore ;)
