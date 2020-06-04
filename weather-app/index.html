@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yudee's Weather</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./layout.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 id="location"></h1>
+        <img src="" alt="" id="weather-image"></i>
+        <p id="temperature"><span class="number"></span>&#730;     C</p>
+        <p id="wind-humidity">
+            <span class="wind">Wind: <span class="wind-number"></span>km/h</span>
+            <span class="humidity">Humidity: <span class="humidity-number"></span>%</span>
+        </p>
+
+        <div id="daily-forecast">
+            <div class="time" id="plus-three">
+                <p></p>
+                <img src="#" alt="">
+            </div>
+            <div class="time" id="plus-six">
+                <p></p>
+                <img src="#" alt="">
+            </div>
+            <div class="time" id="plus-nine">
+                <p></p>
+                <img src="#" alt="">
+            </div>
+            <div class="time" id="plus-twelve">
+                <p></p>
+                <img src="#" alt="">
+            </div>
+        </div>
+
+        <div id="future">
+            <div class="day" id="tomorrow">
+                <p class="day-of-week"></p>
+                <img src="#" alt="" id="forecast-image">
+                <p class="daily-temp"></p>
+            </div>
+            <div class="day" id="plusTwoDays">
+                <p class="day-of-week"></p>
+                <img src="#" alt="" id="forecast-image">
+                <p class="daily-temp"></p>
+            </div>
+            <div class="day" id="plusThreeDays">
+                <p class="day-of-week"></p>
+                <img src="#" alt="" id="forecast-image">
+                <p class="daily-temp"></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./main.js"></script>
+
+</html>

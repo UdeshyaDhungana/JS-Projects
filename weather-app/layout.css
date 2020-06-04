@@ -1,0 +1,84 @@
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.wrapper{
+    margin: auto;
+    width: 98%;
+}
+#location{
+    text-align: center;
+    margin: 0 0 25px 0;
+    font-size: 32px;
+}
+
+#weather-image{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+#temperature{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.wind{
+    padding-left: 30px;
+}
+.humidity{
+    float: right;
+    padding-right: 30px;
+}
+#daily-forecast{
+    font-size: 12px;
+    margin: 25px 10px 0 10px;
+    padding: 10px 0 0px 0;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 5px;
+    text-align: center;
+}
+
+#daily-forecast img{
+    display: inline-block;
+    margin-top: 10px;
+    width: 40px;
+}
+
+#future{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.day{
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px 0;
+}
+#future img{
+    justify-self: center;
+}
+
+@media only screen and (min-width: 400px){
+    .wrapper{
+        width: 400px;
+        border-radius: 10px;
+    }
+}
+
+html{
+    visibility: hidden;
+}

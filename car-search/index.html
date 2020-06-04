@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search - Ride</title>
+    <link rel="stylesheet" href="./node_modules/mdi/css/materialdesignicons.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <nav class="container">
+        <a href="#" class="img-wrapper">
+            <img src="./images/race-car-logo.png" alt="race car logo">
+        </a>
+        <div class="nav-links">
+            <a href="#" class="nav-link theme">Home</a>
+            <a href="#" class="nav-link theme">About</a>
+            <a href="#" class="nav-link theme">Garage</a>
+        </div>
+        <div class="phone">
+            <i class="mdi mdi-phone"></i>
+            <span class="phone-number">+123 456 789</span>
+        </div>
+        <div class="cart">
+            <i class="mdi mdi-cart"></i>
+            <span><span class="items">1</span>item - $<span class="cash">100K</span></span>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1 class="white">Welcome to <div class="theme">Yudee's</div></span></h1>
+    </div>
+
+    <div class="about-us container">
+        <div class="right">
+            <h2>About <span class="theme">US</span></h2>
+            <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Velit, aliquam voluptas beatae vitae expedita consectetur
+                nesciunt quia deserunt asperiores facere fuga dicta fugiat
+                corrupti et omnis porro at dolorum! Ad!
+            </p>
+            <a href="#" class="outline-link">Explore</a>
+        </div>
+        <a href="#" class="img-wrapper">
+            <img src="./images/about-us-img.jpg" alt="lamborghini">
+        </a>
+    </div>
+
+    <div class="garage container">
+        <h2>Our <span class="theme">Garage</span></h2>
+        <ul class="categories">
+            <li><a class="outline-link">All</a></li>
+            <li><a class="outline-link">Sports</a></li>
+            <li><a class="outline-link">Oil</a></li>
+            <li><a class="outline-link">Vintage</a></li>
+            <li><a class="outline-link">Electric</a></li>
+            <li><a class="outline-link">Muscle</a></li>
+        </ul>
+
+        <form>
+            <div class="search-bar">
+                <input type="text" placeholder="Search vehicle">
+                <div class="magnify">
+                    <i class="mdi mdi-magnify"></i>
+                </div>
+            </div>
+        </form>
+
+        <div class="garage-items">
+            <!-- Javascript manipulates this part only -->
+        </div>
+
+        <div class="no-results">
+            <p>Sorry, we couldn't find any results for your search term.</p>
+            <p>Please click 'All' to view all our available vehicles.</p>
+        </div>
+    </div>
+</body>
+    <script src="./main.js"></script>
+</html>

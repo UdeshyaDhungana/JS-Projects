@@ -1,0 +1,28 @@
+@font-face{
+    font-family: "Ubuntu-Regular";
+    src: url(./fonts/Ubuntu-Regular.ttf);
+}
+
+@font-face{
+    font-family: "Noto-Sans-Bold";
+    src: url(./fonts/NotoSans-Bold.ttf);
+}
+body{
+    background-image: linear-gradient(#595ba6, #60bbee);
+    color: #fff;
+    font-family: "Ubuntu-Regular", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#location{
+    font-family: "Noto-Sans-Bold", sans-serif;
+}
+#temperature{
+    font-family: "Noto-Sans-Bold", sans-serif;
+}
+#wind-humidity{
+    font-family: "Ubuntu-Regular", sans-serif;
+}
+#daily-forecast{
+    -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.171);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.418);
+}
+
