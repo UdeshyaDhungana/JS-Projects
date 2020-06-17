@@ -1,9 +1,11 @@
 ## A collection of vanilla JavaScript projects
-Enjoy :)
 
-## Instructions for making weather app work
+These projects were made using HTML, CSS, and vanilla JS. It uses fetch api, so it may not work on browsers like IE.
+**Hosted** [Here](https://udeshyadhungana.github.io/JS-Projects/)
 
+---
+
+ Weather app does not work since I removed the API key. Instructions are below:
+ - Clone the project on your device
  - Get your ID from [OpenWeatherMap](https://openweathermap.org/)
- - Copy and paste it to `const ID` variable in `main.js` file of weather app
-
-P.S: API key in commit history doesn't work anymore ;)
+ - Copy and paste it to `const ID` variable in `main.js` file
