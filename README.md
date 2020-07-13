@@ -2,8 +2,6 @@
 
 These projects were made using HTML, CSS, and vanilla JS. It uses fetch api, so it may not work on browsers like IE.
 
-**Hosted** [Here](https://udeshyadhungana.github.io/JS-Projects/)
-
 ---
 
  Weather app does not work since I removed the API key. Instructions are below:
